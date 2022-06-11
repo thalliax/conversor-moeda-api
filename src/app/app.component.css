@@ -1,0 +1,41 @@
+mat-form-field {
+    margin: 0 auto;
+    width: 300px;
+    display: block;
+}
+
+h1, h2 {
+    margin-top: 15px;
+    margin-bottom: 10px;
+    letter-spacing: 2px;
+}
+
+h1 {
+    color: rgb(53, 22, 68);
+    margin-bottom: 40px;
+}
+
+#icon {
+    transform: scale(3);
+    color: rgb(53, 22, 68);
+    margin-bottom: 40px;
+}
+
+h2 {
+    color: rgb(167, 6, 87);
+}
+
+input {
+    margin-top: 10px;
+    text-align: center;
+}
+
+#resultados {
+    margin-top: 20px;
+    padding: 10px 30px;
+    border: 1px solid rgb(167, 6, 87);
+}
+
+#simboloEuro {
+    font-size: 1.1rem;
+}
