@@ -1,0 +1,23 @@
+<img src="https://img.icons8.com/color-glass/144/1FB141/money.png"/>
+<h1>CONVERSOR DE MOEDA</h1>
+
+<mat-form-field appearance="fill" floatLabel="always">
+  <mat-label>Valor a ser convertido:</mat-label>
+  <input matInput (input)="converter()" #reais type="number" min="0" step="0.01">
+  <span matPrefix>R$</span>
+</mat-form-field>
+
+<div id="resultados">
+  <h2>Resultado da Conversão</h2>
+
+  <mat-form-field>
+    <span matPrefix>US$</span>
+    <input matInput id="dolares" #dolares readonly type="text">
+  </mat-form-field>
+
+  
+  <mat-form-field>
+    <span matPrefix>EUR</span>
+    <input matInput id="euros" #euros readonly type="text">
+  </mat-form-field>
+</div>
